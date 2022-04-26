@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    padding: 20px 15px;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 100vw;
+}
+img{
+    height: 20px;
+    width: 20px;
+    border: 2px solid white;
+    margin: 5px;
+    margin-right: 15px;
+}
+.right{
+    justify-content: end;
+}
+a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+main{
+    width: 98.9vw;
+    height: 100vh;
+    background: url(./images/bgf.png);
+    background-size: 100vw 100vh;
+    position: relative;
+    bottom: 50px;
+    z-index: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    /* width: 105vh; */
+}
+.main p{
+    color: white;
+    width: 850px;
+    text-align: center;
+    margin-left: 55px;
+}
+.off{
+    font-size:75px;
+    font-weight: 700;
+}
+.promo{
+    font-size: 40px;
+}
+.terms{
+    font-size: 15px;
+}
+button{
+    width: 170px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-left: 20rem;
+    margin-top: 20px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+section{
+    margin: 15px;
+    margin-top: -25px;
+}
+section h1{
+    font-size: 85px;
+}
+.food{
+    display: flex;
+}
+.food a{
+    width: 25%;
+    margin: 15px;
+    background-color: red;
+    border: 2px solid black;
+    padding: 18px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.pizza, .beverages, .sides, .deserts{
+    display: grid;
+    grid-template-columns:495px 495px 495px ;
+    /* display: none; */
+}
+.pizza-desc, .bev, .side, .desert{
+    display: flex;
+    /* flex: 33.33%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    /* width: 30%; */
+    /* height: 400px; */
+    margin: 5px;
+    padding: 15px;
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+.pizza p, .side p, .desert select{
+    color: black;
+    margin: 0px;
+    /* width: auto; */
+    text-align: center;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    /* margin-left: 110px; */
+}
+.label{
+    font-size: 25px;
+    margin: 20px 10px;
+    padding: 15px 0px;
+}
+.pizza select, .bev select, .side select, .desert select{
+    width: 320px;
+    text-align: center;
+}
+.total{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 35px;
+}
+.cont{
+    display:flex;
+    /* flex-direction: row; */
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.services h1{
+    font-size: 70px;
+    text-align: center;
+}
+.service img{
+    height: 170px;
+    width: 200px;
+}
+.service{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.service h3{
+    font-size: 35px;
+}
+.sponsors h1{
+    font-size: 70px;
+    text-align: center;
+}
+.sponsors img{
+    height: 250px;
+    width: 250px;
+    margin: 6rem;
+}
+.contact{
+    background-color: rgb(255, 139, 177);
+    border: 3px solid rgb(85, 1, 85);
+}
+.contact h1{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(85, 1, 85);
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 15px;
+    width: 100vw;
+}
+input, textarea{
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    background-color: pink;
+    border: 3px solid purple;
+    border-radius: 50px;
+}
+input, textarea:focus{
+    outline: none;
+}
+.contact button{
+    margin: 15px 0px;
+    background-color: rgb(85, 1, 85);
+    border: 3px solid black;
+    /* margin-bottom: 20px; */
+}
+.about{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
